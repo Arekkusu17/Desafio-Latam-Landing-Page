@@ -1,20 +1,53 @@
+body {
+   font-family: "Oswald", sans-serif;
+   color: white;
+   background-color: #51557e;
+}
+
 header {
    height: 10em;
-   padding: 5em;
+   padding: 2em 2em 0 2em;
    font-size: 2em;
-   background-image: url("");
+   font-weight: 700;
+   background-image: url("../imgs/fondo.jpg");
    background-size: cover;
    background-position: center;
 }
 
 header h1 {
-   margin: 0px;
+   margin-top: 0.5em;
+}
+header p {
+   width: 50%;
+}
+
+section {
+   width: 80%;
+   margin: auto;
+   font-size: 1.2em;
+   text-align: center;
+}
+
+section img {
+   width: 500px;
+   border: solid 8px white;
+   border-radius: 1em;
+   margin: auto;
+}
+section td {
+   padding: 2em;
+   width: 30%;
+}
+
+.item-text {
+   text-align: left;
 }
 
 footer {
    height: 3em;
    line-height: 3em;
-   background-color: rgb(255, 159, 247);
+   background-color: #816797;
    text-align: center;
    font-weight: 900;
+   margin-top: 1em;
 }
